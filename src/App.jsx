@@ -1,4 +1,5 @@
 import Navbar from '../src/Components/Navbar'
+import Hero from './Components/Hero'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       
       <div className='container mx-auto px-8'>
         <Navbar/>
+        <Hero/>
       </div>
       
       
