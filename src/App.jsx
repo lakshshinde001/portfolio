@@ -1,5 +1,6 @@
 import Navbar from '../src/Components/Navbar'
 import About from './Components/About'
+import Contact from './Components/Contact'
 import Experiences from './Components/Experiences'
 import Hero from './Components/Hero'
 import Projects from './Components/Projects'
@@ -12,7 +13,6 @@ function App() {
       <div className='fixed top-0 -z-10 h-full w-full'> 
       <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
       </div>
-
       
       
       <div className='container mx-auto px-8'>
@@ -22,6 +22,7 @@ function App() {
         <Technologies/>
         <Experiences/>
         <Projects/>
+        <Contact/>
       </div>
       
       
